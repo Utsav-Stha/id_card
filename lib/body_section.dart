@@ -15,7 +15,7 @@ class BodySection extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.fromLTRB(8.0,12.0,8.0,8.0),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
